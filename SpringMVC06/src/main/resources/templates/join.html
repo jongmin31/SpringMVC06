@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Insert title here</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ </head>
+ <body>  
+  <div class="container">
+   <h2>Spring MVC 06</h2>
+   <div class="panel panel-warning">
+       <div class="panel-heading">Board Join</div>
+       <div class="panel-body">
+        <form action="join.do" method="post">
+      <table class="table table-hover table-bordered">
+       <tr>
+        <td align="center">아이디</td>
+        <td><input type="text" class="form-control" placeholder="아이디" name="id"></td>
+       </tr>
+       <tr>
+        <td align="center">비밀번호</td>
+        <td><input class="form-control" type="password" placeholder="비밀번호" name="pw"></td>
+       </tr>
+       <tr>
+        <td align="center">닉네임</td>
+        <td><input class="form-control" type="text" placeholder="닉네임" name="nick"></td>
+       </tr>
+       <tr>
+        <td align="center">주소</td>
+        <td><input class="form-control" type="text" placeholder="주소" name="addr"></td>
+       </tr>
+       <tr>
+        <td colspan="2" align="center">
+         <br>
+         <a href="boardList.do">
+          <button type="button" class="btn btn-info">
+           돌아가기
+          </button>
+         </a>
+         <button type="reset" class="btn btn-info">
+          취소
+         </button>
+         <button type="submit"  class="btn btn-primary">
+          회원가입
+         </button>
+        </td>
+       </tr>      
+      </table>
+        </form>
+     
+    </div>
+       <div class="panel-footer">LG DX - 이혜영</div>
+      </div>
+  </div>
+ </body>
+</html>
